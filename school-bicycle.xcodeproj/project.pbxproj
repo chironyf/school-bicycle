@@ -81,6 +81,8 @@
 		9E5A8E5720A0845000AAF3C1 = {
 			isa = PBXGroup;
 			children = (
+				9E5A8E9620A085E000AAF3C1 /* resources */,
+				9E5A8E9520A085AF00AAF3C1 /* default */,
 				9E5A8E6220A0845000AAF3C1 /* school-bicycle */,
 				9E5A8E7B20A0845200AAF3C1 /* school-bicycleTests */,
 				9E5A8E8620A0845200AAF3C1 /* school-bicycleUITests */,
@@ -101,15 +103,10 @@
 		9E5A8E6220A0845000AAF3C1 /* school-bicycle */ = {
 			isa = PBXGroup;
 			children = (
-				9E5A8E6320A0845000AAF3C1 /* AppDelegate.h */,
-				9E5A8E6420A0845000AAF3C1 /* AppDelegate.m */,
 				9E5A8E6620A0845000AAF3C1 /* ViewController.h */,
 				9E5A8E6720A0845000AAF3C1 /* ViewController.m */,
 				9E5A8E6920A0845000AAF3C1 /* Main.storyboard */,
-				9E5A8E6C20A0845100AAF3C1 /* Assets.xcassets */,
 				9E5A8E6E20A0845100AAF3C1 /* LaunchScreen.storyboard */,
-				9E5A8E7120A0845100AAF3C1 /* Info.plist */,
-				9E5A8E7220A0845100AAF3C1 /* main.m */,
 			);
 			path = "school-bicycle";
 			sourceTree = "<group>";
@@ -130,6 +127,25 @@
 				9E5A8E8920A0845200AAF3C1 /* Info.plist */,
 			);
 			path = "school-bicycleUITests";
+			sourceTree = "<group>";
+		};
+		9E5A8E9520A085AF00AAF3C1 /* default */ = {
+			isa = PBXGroup;
+			children = (
+				9E5A8E6320A0845000AAF3C1 /* AppDelegate.h */,
+				9E5A8E6420A0845000AAF3C1 /* AppDelegate.m */,
+				9E5A8E7120A0845100AAF3C1 /* Info.plist */,
+				9E5A8E7220A0845100AAF3C1 /* main.m */,
+			);
+			path = default;
+			sourceTree = "<group>";
+		};
+		9E5A8E9620A085E000AAF3C1 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				9E5A8E6C20A0845100AAF3C1 /* Assets.xcassets */,
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
