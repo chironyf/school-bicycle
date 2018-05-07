@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E5A8E6520A0845000AAF3C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A8E6420A0845000AAF3C1 /* AppDelegate.m */; };
+		9E5A8E6820A0845000AAF3C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A8E6720A0845000AAF3C1 /* ViewController.m */; };
+		9E5A8E6B20A0845000AAF3C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5A8E6920A0845000AAF3C1 /* Main.storyboard */; };
+		9E5A8E6D20A0845100AAF3C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5A8E6C20A0845100AAF3C1 /* Assets.xcassets */; };
+		9E5A8E7020A0845100AAF3C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5A8E6E20A0845100AAF3C1 /* LaunchScreen.storyboard */; };
+		9E5A8E7320A0845100AAF3C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A8E7220A0845100AAF3C1 /* main.m */; };
+		9E5A8E7D20A0845200AAF3C1 /* school_bicycleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A8E7C20A0845200AAF3C1 /* school_bicycleTests.m */; };
+		9E5A8E8820A0845200AAF3C1 /* school_bicycleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A8E8720A0845200AAF3C1 /* school_bicycleUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E5A8E7920A0845200AAF3C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E5A8E5820A0845000AAF3C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E5A8E5F20A0845000AAF3C1;
+			remoteInfo = "school-bicycle";
+		};
+		9E5A8E8420A0845200AAF3C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E5A8E5820A0845000AAF3C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E5A8E5F20A0845000AAF3C1;
+			remoteInfo = "school-bicycle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E5A8E6020A0845000AAF3C1 /* school-bicycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "school-bicycle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E5A8E6320A0845000AAF3C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E5A8E6420A0845000AAF3C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9E5A8E6620A0845000AAF3C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9E5A8E6720A0845000AAF3C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9E5A8E6A20A0845000AAF3C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E5A8E6C20A0845100AAF3C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E5A8E6F20A0845100AAF3C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E5A8E7120A0845100AAF3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E5A8E7220A0845100AAF3C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E5A8E7820A0845200AAF3C1 /* school-bicycleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "school-bicycleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E5A8E7C20A0845200AAF3C1 /* school_bicycleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = school_bicycleTests.m; sourceTree = "<group>"; };
+		9E5A8E7E20A0845200AAF3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E5A8E8320A0845200AAF3C1 /* school-bicycleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "school-bicycleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E5A8E8720A0845200AAF3C1 /* school_bicycleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = school_bicycleUITests.m; sourceTree = "<group>"; };
+		9E5A8E8920A0845200AAF3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E5A8E5D20A0845000AAF3C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E5A8E7520A0845200AAF3C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E5A8E8020A0845200AAF3C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E5A8E5720A0845000AAF3C1 = {
+			isa = PBXGroup;
+			children = (
+				9E5A8E6220A0845000AAF3C1 /* school-bicycle */,
+				9E5A8E7B20A0845200AAF3C1 /* school-bicycleTests */,
+				9E5A8E8620A0845200AAF3C1 /* school-bicycleUITests */,
+				9E5A8E6120A0845000AAF3C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E5A8E6120A0845000AAF3C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E5A8E6020A0845000AAF3C1 /* school-bicycle.app */,
+				9E5A8E7820A0845200AAF3C1 /* school-bicycleTests.xctest */,
+				9E5A8E8320A0845200AAF3C1 /* school-bicycleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E5A8E6220A0845000AAF3C1 /* school-bicycle */ = {
+			isa = PBXGroup;
+			children = (
+				9E5A8E6320A0845000AAF3C1 /* AppDelegate.h */,
+				9E5A8E6420A0845000AAF3C1 /* AppDelegate.m */,
+				9E5A8E6620A0845000AAF3C1 /* ViewController.h */,
+				9E5A8E6720A0845000AAF3C1 /* ViewController.m */,
+				9E5A8E6920A0845000AAF3C1 /* Main.storyboard */,
+				9E5A8E6C20A0845100AAF3C1 /* Assets.xcassets */,
+				9E5A8E6E20A0845100AAF3C1 /* LaunchScreen.storyboard */,
+				9E5A8E7120A0845100AAF3C1 /* Info.plist */,
+				9E5A8E7220A0845100AAF3C1 /* main.m */,
+			);
+			path = "school-bicycle";
+			sourceTree = "<group>";
+		};
+		9E5A8E7B20A0845200AAF3C1 /* school-bicycleTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E5A8E7C20A0845200AAF3C1 /* school_bicycleTests.m */,
+				9E5A8E7E20A0845200AAF3C1 /* Info.plist */,
+			);
+			path = "school-bicycleTests";
+			sourceTree = "<group>";
+		};
+		9E5A8E8620A0845200AAF3C1 /* school-bicycleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E5A8E8720A0845200AAF3C1 /* school_bicycleUITests.m */,
+				9E5A8E8920A0845200AAF3C1 /* Info.plist */,
+			);
+			path = "school-bicycleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E5A8E5F20A0845000AAF3C1 /* school-bicycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E5A8E8C20A0845200AAF3C1 /* Build configuration list for PBXNativeTarget "school-bicycle" */;
+			buildPhases = (
+				9E5A8E5C20A0845000AAF3C1 /* Sources */,
+				9E5A8E5D20A0845000AAF3C1 /* Frameworks */,
+				9E5A8E5E20A0845000AAF3C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "school-bicycle";
+			productName = "school-bicycle";
+			productReference = 9E5A8E6020A0845000AAF3C1 /* school-bicycle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E5A8E7720A0845200AAF3C1 /* school-bicycleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E5A8E8F20A0845200AAF3C1 /* Build configuration list for PBXNativeTarget "school-bicycleTests" */;
+			buildPhases = (
+				9E5A8E7420A0845200AAF3C1 /* Sources */,
+				9E5A8E7520A0845200AAF3C1 /* Frameworks */,
+				9E5A8E7620A0845200AAF3C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E5A8E7A20A0845200AAF3C1 /* PBXTargetDependency */,
+			);
+			name = "school-bicycleTests";
+			productName = "school-bicycleTests";
+			productReference = 9E5A8E7820A0845200AAF3C1 /* school-bicycleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9E5A8E8220A0845200AAF3C1 /* school-bicycleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E5A8E9220A0845200AAF3C1 /* Build configuration list for PBXNativeTarget "school-bicycleUITests" */;
+			buildPhases = (
+				9E5A8E7F20A0845200AAF3C1 /* Sources */,
+				9E5A8E8020A0845200AAF3C1 /* Frameworks */,
+				9E5A8E8120A0845200AAF3C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E5A8E8520A0845200AAF3C1 /* PBXTargetDependency */,
+			);
+			name = "school-bicycleUITests";
+			productName = "school-bicycleUITests";
+			productReference = 9E5A8E8320A0845200AAF3C1 /* school-bicycleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E5A8E5820A0845000AAF3C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = chironyf;
+				TargetAttributes = {
+					9E5A8E5F20A0845000AAF3C1 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					9E5A8E7720A0845200AAF3C1 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 9E5A8E5F20A0845000AAF3C1;
+					};
+					9E5A8E8220A0845200AAF3C1 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 9E5A8E5F20A0845000AAF3C1;
+					};
+				};
+			};
+			buildConfigurationList = 9E5A8E5B20A0845000AAF3C1 /* Build configuration list for PBXProject "school-bicycle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E5A8E5720A0845000AAF3C1;
+			productRefGroup = 9E5A8E6120A0845000AAF3C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E5A8E5F20A0845000AAF3C1 /* school-bicycle */,
+				9E5A8E7720A0845200AAF3C1 /* school-bicycleTests */,
+				9E5A8E8220A0845200AAF3C1 /* school-bicycleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E5A8E5E20A0845000AAF3C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5A8E7020A0845100AAF3C1 /* LaunchScreen.storyboard in Resources */,
+				9E5A8E6D20A0845100AAF3C1 /* Assets.xcassets in Resources */,
+				9E5A8E6B20A0845000AAF3C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E5A8E7620A0845200AAF3C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E5A8E8120A0845200AAF3C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E5A8E5C20A0845000AAF3C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5A8E6820A0845000AAF3C1 /* ViewController.m in Sources */,
+				9E5A8E7320A0845100AAF3C1 /* main.m in Sources */,
+				9E5A8E6520A0845000AAF3C1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E5A8E7420A0845200AAF3C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5A8E7D20A0845200AAF3C1 /* school_bicycleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E5A8E7F20A0845200AAF3C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5A8E8820A0845200AAF3C1 /* school_bicycleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E5A8E7A20A0845200AAF3C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E5A8E5F20A0845000AAF3C1 /* school-bicycle */;
+			targetProxy = 9E5A8E7920A0845200AAF3C1 /* PBXContainerItemProxy */;
+		};
+		9E5A8E8520A0845200AAF3C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E5A8E5F20A0845000AAF3C1 /* school-bicycle */;
+			targetProxy = 9E5A8E8420A0845200AAF3C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E5A8E6920A0845000AAF3C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E5A8E6A20A0845000AAF3C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E5A8E6E20A0845100AAF3C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E5A8E6F20A0845100AAF3C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E5A8E8A20A0845200AAF3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9E5A8E8B20A0845200AAF3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E5A8E8D20A0845200AAF3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8SEQWVLNB;
+				INFOPLIST_FILE = "school-bicycle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chironyf.school-bicycle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E5A8E8E20A0845200AAF3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8SEQWVLNB;
+				INFOPLIST_FILE = "school-bicycle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chironyf.school-bicycle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9E5A8E9020A0845200AAF3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8SEQWVLNB;
+				INFOPLIST_FILE = "school-bicycleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chironyf.school-bicycleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/school-bicycle.app/school-bicycle";
+			};
+			name = Debug;
+		};
+		9E5A8E9120A0845200AAF3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8SEQWVLNB;
+				INFOPLIST_FILE = "school-bicycleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chironyf.school-bicycleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/school-bicycle.app/school-bicycle";
+			};
+			name = Release;
+		};
+		9E5A8E9320A0845200AAF3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8SEQWVLNB;
+				INFOPLIST_FILE = "school-bicycleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chironyf.school-bicycleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "school-bicycle";
+			};
+			name = Debug;
+		};
+		9E5A8E9420A0845200AAF3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8SEQWVLNB;
+				INFOPLIST_FILE = "school-bicycleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chironyf.school-bicycleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "school-bicycle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E5A8E5B20A0845000AAF3C1 /* Build configuration list for PBXProject "school-bicycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E5A8E8A20A0845200AAF3C1 /* Debug */,
+				9E5A8E8B20A0845200AAF3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E5A8E8C20A0845200AAF3C1 /* Build configuration list for PBXNativeTarget "school-bicycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E5A8E8D20A0845200AAF3C1 /* Debug */,
+				9E5A8E8E20A0845200AAF3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E5A8E8F20A0845200AAF3C1 /* Build configuration list for PBXNativeTarget "school-bicycleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E5A8E9020A0845200AAF3C1 /* Debug */,
+				9E5A8E9120A0845200AAF3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E5A8E9220A0845200AAF3C1 /* Build configuration list for PBXNativeTarget "school-bicycleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E5A8E9320A0845200AAF3C1 /* Debug */,
+				9E5A8E9420A0845200AAF3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E5A8E5820A0845000AAF3C1 /* Project object */;
+}
