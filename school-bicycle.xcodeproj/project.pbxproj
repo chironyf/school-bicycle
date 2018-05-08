@@ -16,6 +16,7 @@
 		9E5A8E8820A0845200AAF3C1 /* school_bicycleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A8E8720A0845200AAF3C1 /* school_bicycleUITests.m */; };
 		9E5A8E9920A087BC00AAF3C1 /* BicycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A8E9820A087BC00AAF3C1 /* BicycleViewController.m */; };
 		9E5A8EDB20A08DEA00AAF3C1 /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A8EDA20A08DEA00AAF3C1 /* PersonalViewController.m */; };
+		9E5A8EE120A1352500AAF3C1 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A8EE020A1352500AAF3C1 /* Singleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,9 @@
 		9E5A8E9820A087BC00AAF3C1 /* BicycleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BicycleViewController.m; sourceTree = "<group>"; };
 		9E5A8ED920A08DEA00AAF3C1 /* PersonalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
 		9E5A8EDA20A08DEA00AAF3C1 /* PersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
+		9E5A8EDF20A1352500AAF3C1 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		9E5A8EE020A1352500AAF3C1 /* Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		9E5A8EE220A1360000AAF3C1 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 		9E5A8E5720A0845000AAF3C1 = {
 			isa = PBXGroup;
 			children = (
+				9E5A8EDE20A1350200AAF3C1 /* config */,
 				9E5A8ED820A08D9D00AAF3C1 /* personal */,
 				9E5A8E9620A085E000AAF3C1 /* resources */,
 				9E5A8E9520A085AF00AAF3C1 /* default */,
@@ -159,6 +164,16 @@
 				9E5A8EDA20A08DEA00AAF3C1 /* PersonalViewController.m */,
 			);
 			path = personal;
+			sourceTree = "<group>";
+		};
+		9E5A8EDE20A1350200AAF3C1 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				9E5A8EDF20A1352500AAF3C1 /* Singleton.h */,
+				9E5A8EE020A1352500AAF3C1 /* Singleton.m */,
+				9E5A8EE220A1360000AAF3C1 /* Config.h */,
+			);
+			path = config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +310,7 @@
 				9E5A8E6520A0845000AAF3C1 /* AppDelegate.m in Sources */,
 				9E5A8EDB20A08DEA00AAF3C1 /* PersonalViewController.m in Sources */,
 				9E5A8E9920A087BC00AAF3C1 /* BicycleViewController.m in Sources */,
+				9E5A8EE120A1352500AAF3C1 /* Singleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

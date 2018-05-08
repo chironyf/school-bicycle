@@ -12,20 +12,24 @@
 
 @property (nonatomic, strong) UITableView *personalInfoTable;
 
+@property (nonatomic, strong) NSArray<NSNumber *> *tableNumbers;
+
 @end
 
 @implementation PersonalViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _personalInfoTable = [[UITableView alloc] init];
+
+    _tableNumbers = @[@1, @6];
+    
+    _personalInfoTable = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, 0, 0) style:UITableViewStyleGrouped];
+    _personalInfoTable.translatesAutoresizingMaskIntoConstraints = NO;
     
     [_personalInfoTable setDelegate:self];
     [_personalInfoTable setDataSource:self];
     _personalInfoTable.estimatedRowHeight = 88;
     _personalInfoTable.rowHeight = UITableViewAutomaticDimension;
-    
-    _personalInfoTable.backgroundColor = UIColor.blackColor;
     
     [self.view addSubview:_personalInfoTable];
     
@@ -47,11 +51,12 @@
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 2;
+    return _tableNumbers.count;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 5;
+    return _tableNumbers[section].integerValue;
+//    return 5;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
