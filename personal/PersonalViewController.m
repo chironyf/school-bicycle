@@ -7,6 +7,7 @@
 //
 
 #import "PersonalViewController.h"
+#import "PersonalDetailViewController.h"
 
 @interface PersonalViewController ()
 
@@ -14,22 +15,28 @@
 
 @property (nonatomic, strong) NSArray<NSNumber *> *tableNumbers;
 
+@property (nonatomic, strong) NSArray<NSNumber *> *tableRowHeight;
+
 @end
 
 @implementation PersonalViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.title = @"个人中心";
 
     _tableNumbers = @[@1, @6];
+    
+    _tableRowHeight = @[@68, @44];
     
     _personalInfoTable = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, 0, 0) style:UITableViewStyleGrouped];
     _personalInfoTable.translatesAutoresizingMaskIntoConstraints = NO;
     
     [_personalInfoTable setDelegate:self];
     [_personalInfoTable setDataSource:self];
-    _personalInfoTable.estimatedRowHeight = 88;
-    _personalInfoTable.rowHeight = UITableViewAutomaticDimension;
+//    _personalInfoTable.estimatedRowHeight = 88;
+//    _personalInfoTable.rowHeight = UITableViewAutomaticDimension;
     
     [self.view addSubview:_personalInfoTable];
     
@@ -63,6 +70,17 @@
     UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"infocell"];
     cell.textLabel.text = @"hello";
     return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return _tableRowHeight[indexPath.section].floatValue;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.section == 0) {
+        PersonalDetailViewController *pd = [[PersonalDetailViewController alloc] init];
+        [self.navigationController pushViewController:pd animated:YES];
+    }
 }
 
 @end

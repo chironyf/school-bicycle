@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K5Z-z7-KLE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fap-cl-rRl">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -11,92 +11,93 @@
     </dependencies>
     <scenes>
         <!--个人中心-->
-        <scene sceneID="eX8-aH-LjO">
+        <scene sceneID="Dm7-TF-LRI">
             <objects>
-                <viewController id="ovL-b0-bFb" customClass="PersonalViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ALh-8j-21J">
+                <viewController title="个人中心" id="C8Z-6u-df6" customClass="PersonalViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nrC-qU-TmW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="aWR-gx-UJH"/>
+                        <viewLayoutGuide key="safeArea" id="rzB-D2-JOe"/>
                     </view>
-                    <navigationItem key="navigationItem" title="个人中心" id="N0p-Pl-cdm"/>
+                    <navigationItem key="navigationItem" id="nP0-Oi-ueH"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ILQ-KE-1Nt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5xu-EQ-H6I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1580" y="147.97601199400302"/>
+            <point key="canvasLocation" x="935.20000000000005" y="68.815592203898049"/>
         </scene>
         <!--交易市场-->
-        <scene sceneID="4GM-HX-0jv">
+        <scene sceneID="Ond-2D-bYZ">
             <objects>
-                <viewController id="WbU-YJ-U08" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="VT3-jq-dW5">
+                <viewController title="交易市场" id="X7M-Q5-HUe" customClass="MarketViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5nf-tp-BrW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="srG-co-lkY"/>
+                        <viewLayoutGuide key="safeArea" id="GoI-Qu-0r7"/>
                     </view>
-                    <navigationItem key="navigationItem" title="交易市场" id="S4t-Oo-vAQ"/>
+                    <navigationItem key="navigationItem" id="6ov-0o-FPS"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gao-ok-MkL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SPM-9B-utM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1580" y="-516.79160419790105"/>
+            <point key="canvasLocation" x="935.20000000000005" y="-596.85157421289364"/>
         </scene>
-        <!--Bicycle View Controller-->
-        <scene sceneID="tTM-Z6-CRp">
+        <!--Main View Controller-->
+        <scene sceneID="Vbu-0f-xY2">
             <objects>
-                <tabBarController id="K5Z-z7-KLE" customClass="BicycleViewController" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aNJ-0R-Kix">
+                <tabBarController id="fap-cl-rRl" customClass="MainViewController" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="eMy-8f-wda"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="RdQ-Z2-ySo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="dbq-H0-WwR" kind="relationship" relationship="viewControllers" id="c9t-mN-qG8"/>
-                        <segue destination="SJt-5T-huR" kind="relationship" relationship="viewControllers" id="bW6-vU-w11"/>
+                        <segue destination="Icc-OJ-pFF" kind="relationship" relationship="viewControllers" id="SOL-Ir-wd0"/>
+                        <segue destination="fp6-mL-9eN" kind="relationship" relationship="viewControllers" id="Ryc-uV-Ddj"/>
                     </connections>
                 </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ibv-ts-OU1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ETj-Da-CnN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-394" y="-186"/>
+            <point key="canvasLocation" x="-900" y="-284"/>
         </scene>
-        <!--发现-->
-        <scene sceneID="NPy-oy-vIa">
+        <!--交易市场-->
+        <scene sceneID="4ty-Kc-Dgg">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dbq-H0-WwR" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="发现" id="Tcb-uh-Q7S"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Icc-OJ-pFF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="交易市场" id="4iZ-xO-qEx"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="P3c-e9-1IQ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="s6u-Qd-hZD">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="WbU-YJ-U08" kind="relationship" relationship="rootViewController" id="BWV-Rj-D5N"/>
+                        <segue destination="X7M-Q5-HUe" kind="relationship" relationship="rootViewController" id="gtw-ma-gKf"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZDO-nt-4FN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a6t-Ia-dhg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="640.79999999999995" y="-516.79160419790105"/>
+            <point key="canvasLocation" x="-4" y="-596.85157421289364"/>
         </scene>
-        <!--个人-->
-        <scene sceneID="css-B4-haJ">
+        <!--个人中心-->
+        <scene sceneID="91c-hO-eEg">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="SJt-5T-huR" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="个人" id="xen-5u-I8e"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fp6-mL-9eN" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="个人中心" id="0Eb-2l-FZb"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="e2f-oI-7to">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0xf-so-bV0">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="ovL-b0-bFb" kind="relationship" relationship="rootViewController" id="MLr-Bs-457"/>
+                        <segue destination="C8Z-6u-df6" kind="relationship" relationship="rootViewController" id="Upo-md-9b4"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="NAK-c1-ERQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="089-zh-SPq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="640.79999999999995" y="147.97601199400302"/>
+            <point key="canvasLocation" x="-4" y="68.815592203898049"/>
         </scene>
     </scenes>
 </document>

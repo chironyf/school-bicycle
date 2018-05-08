@@ -14,9 +14,12 @@
 		9E5A8E7320A0845100AAF3C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A8E7220A0845100AAF3C1 /* main.m */; };
 		9E5A8E7D20A0845200AAF3C1 /* school_bicycleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A8E7C20A0845200AAF3C1 /* school_bicycleTests.m */; };
 		9E5A8E8820A0845200AAF3C1 /* school_bicycleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A8E8720A0845200AAF3C1 /* school_bicycleUITests.m */; };
-		9E5A8E9920A087BC00AAF3C1 /* BicycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A8E9820A087BC00AAF3C1 /* BicycleViewController.m */; };
 		9E5A8EDB20A08DEA00AAF3C1 /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A8EDA20A08DEA00AAF3C1 /* PersonalViewController.m */; };
 		9E5A8EE120A1352500AAF3C1 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A8EE020A1352500AAF3C1 /* Singleton.m */; };
+		9E5A8EEB20A17C8100AAF3C1 /* PersonalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A8EEA20A17C8100AAF3C1 /* PersonalDetailViewController.m */; };
+		9E5A8EEE20A17DD100AAF3C1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A8EED20A17DD100AAF3C1 /* RootViewController.m */; };
+		9E5A8EF120A17E9900AAF3C1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A8EF020A17E9900AAF3C1 /* MainViewController.m */; };
+		9E5A8EF520A180F300AAF3C1 /* MarketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A8EF420A180F300AAF3C1 /* MarketViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,13 +54,19 @@
 		9E5A8E8320A0845200AAF3C1 /* school-bicycleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "school-bicycleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E5A8E8720A0845200AAF3C1 /* school_bicycleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = school_bicycleUITests.m; sourceTree = "<group>"; };
 		9E5A8E8920A0845200AAF3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9E5A8E9720A087BC00AAF3C1 /* BicycleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BicycleViewController.h; sourceTree = "<group>"; };
-		9E5A8E9820A087BC00AAF3C1 /* BicycleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BicycleViewController.m; sourceTree = "<group>"; };
 		9E5A8ED920A08DEA00AAF3C1 /* PersonalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
 		9E5A8EDA20A08DEA00AAF3C1 /* PersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
 		9E5A8EDF20A1352500AAF3C1 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		9E5A8EE020A1352500AAF3C1 /* Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
 		9E5A8EE220A1360000AAF3C1 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		9E5A8EE920A17C8100AAF3C1 /* PersonalDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalDetailViewController.h; sourceTree = "<group>"; };
+		9E5A8EEA20A17C8100AAF3C1 /* PersonalDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalDetailViewController.m; sourceTree = "<group>"; };
+		9E5A8EEC20A17DD100AAF3C1 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		9E5A8EED20A17DD100AAF3C1 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		9E5A8EEF20A17E9900AAF3C1 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9E5A8EF020A17E9900AAF3C1 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9E5A8EF320A180F300AAF3C1 /* MarketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarketViewController.h; sourceTree = "<group>"; };
+		9E5A8EF420A180F300AAF3C1 /* MarketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +97,7 @@
 		9E5A8E5720A0845000AAF3C1 = {
 			isa = PBXGroup;
 			children = (
+				9E5A8EF220A180D300AAF3C1 /* market */,
 				9E5A8EDE20A1350200AAF3C1 /* config */,
 				9E5A8ED820A08D9D00AAF3C1 /* personal */,
 				9E5A8E9620A085E000AAF3C1 /* resources */,
@@ -114,8 +124,10 @@
 			children = (
 				9E5A8E6920A0845000AAF3C1 /* Main.storyboard */,
 				9E5A8E6E20A0845100AAF3C1 /* LaunchScreen.storyboard */,
-				9E5A8E9720A087BC00AAF3C1 /* BicycleViewController.h */,
-				9E5A8E9820A087BC00AAF3C1 /* BicycleViewController.m */,
+				9E5A8EEC20A17DD100AAF3C1 /* RootViewController.h */,
+				9E5A8EED20A17DD100AAF3C1 /* RootViewController.m */,
+				9E5A8EEF20A17E9900AAF3C1 /* MainViewController.h */,
+				9E5A8EF020A17E9900AAF3C1 /* MainViewController.m */,
 			);
 			path = "school-bicycle";
 			sourceTree = "<group>";
@@ -162,6 +174,8 @@
 			children = (
 				9E5A8ED920A08DEA00AAF3C1 /* PersonalViewController.h */,
 				9E5A8EDA20A08DEA00AAF3C1 /* PersonalViewController.m */,
+				9E5A8EE920A17C8100AAF3C1 /* PersonalDetailViewController.h */,
+				9E5A8EEA20A17C8100AAF3C1 /* PersonalDetailViewController.m */,
 			);
 			path = personal;
 			sourceTree = "<group>";
@@ -174,6 +188,15 @@
 				9E5A8EE220A1360000AAF3C1 /* Config.h */,
 			);
 			path = config;
+			sourceTree = "<group>";
+		};
+		9E5A8EF220A180D300AAF3C1 /* market */ = {
+			isa = PBXGroup;
+			children = (
+				9E5A8EF320A180F300AAF3C1 /* MarketViewController.h */,
+				9E5A8EF420A180F300AAF3C1 /* MarketViewController.m */,
+			);
+			path = market;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,8 +331,11 @@
 			files = (
 				9E5A8E7320A0845100AAF3C1 /* main.m in Sources */,
 				9E5A8E6520A0845000AAF3C1 /* AppDelegate.m in Sources */,
+				9E5A8EEE20A17DD100AAF3C1 /* RootViewController.m in Sources */,
 				9E5A8EDB20A08DEA00AAF3C1 /* PersonalViewController.m in Sources */,
-				9E5A8E9920A087BC00AAF3C1 /* BicycleViewController.m in Sources */,
+				9E5A8EF520A180F300AAF3C1 /* MarketViewController.m in Sources */,
+				9E5A8EF120A17E9900AAF3C1 /* MainViewController.m in Sources */,
+				9E5A8EEB20A17C8100AAF3C1 /* PersonalDetailViewController.m in Sources */,
 				9E5A8EE120A1352500AAF3C1 /* Singleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
